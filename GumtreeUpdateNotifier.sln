@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gumtree.Web", "GumtreeUpdateNotifier\Gumtree.Web.csproj", "{4A83D9C8-5A00-489F-A97A-1E2CE9566936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gumtree.Tests", "GumtreeUpdateNotifier.Tests\Gumtree.Tests.csproj", "{EC123290-A6E2-4D89-83DB-E160E26DC139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gumtree.NewItemNotifier", "GumtreeNewItemChecker\Gumtree.NewItemNotifier.csproj", "{5047FEC4-122F-4483-AC70-7359DB83751E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gumtree.Business", "Business\Gumtree.Business.csproj", "{32E071D1-5AA4-4416-9FDE-7982DD4E0A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A83D9C8-5A00-489F-A97A-1E2CE9566936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A83D9C8-5A00-489F-A97A-1E2CE9566936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A83D9C8-5A00-489F-A97A-1E2CE9566936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A83D9C8-5A00-489F-A97A-1E2CE9566936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC123290-A6E2-4D89-83DB-E160E26DC139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC123290-A6E2-4D89-83DB-E160E26DC139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC123290-A6E2-4D89-83DB-E160E26DC139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC123290-A6E2-4D89-83DB-E160E26DC139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5047FEC4-122F-4483-AC70-7359DB83751E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5047FEC4-122F-4483-AC70-7359DB83751E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5047FEC4-122F-4483-AC70-7359DB83751E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5047FEC4-122F-4483-AC70-7359DB83751E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E071D1-5AA4-4416-9FDE-7982DD4E0A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E071D1-5AA4-4416-9FDE-7982DD4E0A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E071D1-5AA4-4416-9FDE-7982DD4E0A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E071D1-5AA4-4416-9FDE-7982DD4E0A40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

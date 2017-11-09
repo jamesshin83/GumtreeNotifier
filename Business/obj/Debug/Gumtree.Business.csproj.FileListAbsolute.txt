@@ -1,0 +1,10 @@
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\Business.dll
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\Business.pdb
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\obj\Debug\Gumtree.Business.csprojResolveAssemblyReference.cache
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\obj\Debug\Business.dll
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\obj\Debug\Business.pdb
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\Business.dll.config
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.dll
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.xml
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.SqlServer.xml
