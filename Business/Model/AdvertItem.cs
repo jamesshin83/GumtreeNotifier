@@ -16,10 +16,11 @@ namespace Business.Model
         public string GumtreeAdvertId { get; set; }
         public String Title { get; set; }
         public String Description { get; set; }
+        public String Price { get; set; }
         public String ThumbnailUrl { get; set; }
-        public DateTime AdvertDate { get; set; }
+        public string AdvertUrl { get; set; }
         public String GeneralArea { get; set; }
         public String Suburb { get; set; }
-        public DetectedAdvertItem DetectedAdvertItem { get; set; }
+        public virtual DetectedAdvertItem DetectedAdvertItem { get; set; }
     }
 }

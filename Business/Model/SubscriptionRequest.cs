@@ -13,7 +13,7 @@ namespace Business.Model
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
         public Guid SubscriptionId { get; set; }
-        public String GumtreeURL { get; set; }
+        public String GumtreeListingURL { get; set; }
         public String Email { get; set; }
         public DateTime RequestedDate { get; set; }
         public String RequestedBy { get; set; }

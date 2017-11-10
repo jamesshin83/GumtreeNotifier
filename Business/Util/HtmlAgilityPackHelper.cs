@@ -14,14 +14,15 @@ namespace Business
         {
             var web = new HtmlWeb();
 
-            NetworkCredential proxyCred = new NetworkCredential(@"he67962", @"Ineedcoffee9", @"HDWA");
-            WebProxy proxy = new WebProxy("203.0.172.4:8181", false)
-            {
-                UseDefaultCredentials = false,
-                Credentials = proxyCred
-            };
+            //NetworkCredential proxyCred = new NetworkCredential(@"he67962", @"Ineedcoffee9", @"HDWA");
+            //WebProxy proxy = new WebProxy("203.0.172.4:8181", false)
+            //{
+            //    UseDefaultCredentials = false,
+            //    Credentials = proxyCred
+            //};
 
-            var doc = web.Load(url, "GET", proxy, proxyCred);
+            //var doc = web.Load(url, "GET", proxy, proxyCred);
+            var doc = web.Load(url);
 
             return doc;
         }

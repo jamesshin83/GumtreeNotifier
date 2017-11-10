@@ -34,7 +34,8 @@ namespace Business
                 {
                     Title = GetAdvertTitle(item),
                     Description = GetAdvertDescription(item),
-                    AdvertDate =GetAdvertDate(item),
+                    Price = GetAdvertPrice(item),
+                    AdvertUrl = GetAdvertUrl(item),
                     GeneralArea = GetAdvertGeneralArea(item),
                     Suburb = GetAdvertSuburb(item),
                     GumtreeAdvertId = GetGumtreeAdvertId(item)
@@ -46,34 +47,63 @@ namespace Business
             return advertItems;
         }
 
+        private static string GetAdvertUrl(HtmlNode item)
+        {
+            var url = string.Format("{0}{1}", "http://www.gumtree.com.au", item.Attributes["href"].Value);
+
+            return url;
+        }
+
+        private static string GetAdvertPrice(HtmlNode item)
+        {
+            var priceNode = item.Descendants("span")
+                .Where(x => x.Attributes["class"] != null && x.Attributes["class"].Value == "user-ad-price__price")
+                .FirstOrDefault();
+
+            return (priceNode != null) ? priceNode.InnerText : "No price";
+        }
+
         private static string GetGumtreeAdvertId(HtmlNode item)
         {
-            return "title";
+            var id = item.Attributes["href"].Value.Split(new char[] { '/' }).Last();
+
+            return id;
         }
 
         private static string GetAdvertSuburb(HtmlNode item)
         {
-            return "suburb";
+            var suburbNode = item.Descendants("span")
+                .Where(x => x.Attributes["class"] != null && x.Attributes["class"].Value == "user-ad-row__location")
+                .FirstOrDefault();
+
+            return (suburbNode != null) ? suburbNode.InnerText : "No suburb";
         }
 
         private static string GetAdvertGeneralArea(HtmlNode item)
         {
-            return "general area";
-        }
+            var areaNode = item.Descendants("span")
+                .Where(x => x.Attributes["class"] != null && x.Attributes["class"].Value == "user-ad-row__location-area")
+                .FirstOrDefault();
 
-        private static DateTime GetAdvertDate(HtmlNode item)
-        {
-            return DateTime.Now;
+            return (areaNode != null) ? areaNode.InnerText : "No general area";
         }
 
         private static string GetAdvertDescription(HtmlNode item)
         {
-            return "desc";
+            var descNode = item.Descendants("p")
+                .Where(x => x.Attributes["id"] != null && x.Attributes["id"].Value.StartsWith("user-ad-desc-MAIN-"))
+                .FirstOrDefault();
+
+            return (descNode != null) ? descNode.InnerText : "No description";
         }
 
         private static string GetAdvertTitle(HtmlNode item)
         {
-            return "title";
+            var titleNode = item.Descendants("p")
+                .Where(x => x.Attributes["class"] != null && x.Attributes["class"].Value == "user-ad-row__title")
+                .FirstOrDefault();
+
+            return (titleNode != null) ? titleNode.InnerText : "No title";
         }
     }
 }

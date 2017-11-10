@@ -11,3 +11,16 @@ E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.Sq
 E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\HtmlAgilityPack.dll
 E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\HtmlAgilityPack.pdb
 E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\HtmlAgilityPack.xml
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\Business.dll.config
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\Business.dll
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\Business.pdb
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\EntityFramework.dll
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\HtmlAgilityPack.dll
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\EntityFramework.xml
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\HtmlAgilityPack.pdb
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\bin\Debug\HtmlAgilityPack.xml
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\obj\Debug\Gumtree.Business.csprojResolveAssemblyReference.cache
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\obj\Debug\Business.dll
+E:\Projects\SmallProjects\GumtreeNotifier\GumtreeNotifier\Business\obj\Debug\Business.pdb
