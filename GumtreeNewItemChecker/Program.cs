@@ -15,7 +15,9 @@ namespace NewItemChecker
         {
             WebRequestor.Init();
 
-            DoDatabaseStuff();
+            var items = GumtreeHtmlReader.GetAdvertItems("https://www.gumtree.com.au/s-miscellaneous-goods/perth/cardboard+boxes/k0c18319l3008303");
+
+            //DoDatabaseStuff();
             //VisitPage("https://www.gumtree.com.au/s-miscellaneous-goods/perth/cardboard+boxes/k0c18319l3008303");
             //VisitPage("https://intranet.health.wa.gov.au");
         }

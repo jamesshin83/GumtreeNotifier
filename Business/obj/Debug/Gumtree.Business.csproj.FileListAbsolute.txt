@@ -8,3 +8,6 @@ E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.dl
 E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.SqlServer.dll
 E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.xml
 E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\HtmlAgilityPack.dll
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\HtmlAgilityPack.pdb
+E:\Projects\Personal\GumtreeUpdateNotifier\Business\bin\Debug\HtmlAgilityPack.xml

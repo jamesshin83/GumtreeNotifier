@@ -10,3 +10,6 @@ E:\Projects\Personal\GumtreeUpdateNotifier\GumtreeNewItemChecker\bin\Debug\Entit
 E:\Projects\Personal\GumtreeUpdateNotifier\GumtreeNewItemChecker\bin\Debug\EntityFramework.SqlServer.dll
 E:\Projects\Personal\GumtreeUpdateNotifier\GumtreeNewItemChecker\bin\Debug\EntityFramework.xml
 E:\Projects\Personal\GumtreeUpdateNotifier\GumtreeNewItemChecker\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Personal\GumtreeUpdateNotifier\GumtreeNewItemChecker\bin\Debug\HtmlAgilityPack.dll
+E:\Projects\Personal\GumtreeUpdateNotifier\GumtreeNewItemChecker\bin\Debug\HtmlAgilityPack.pdb
+E:\Projects\Personal\GumtreeUpdateNotifier\GumtreeNewItemChecker\bin\Debug\HtmlAgilityPack.xml

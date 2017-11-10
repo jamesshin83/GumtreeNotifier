@@ -15,7 +15,7 @@ namespace Business.Util
         public static void Init()
         {
             string proxyUri = "203.0.172.4:8181";
-            NetworkCredential proxyCred = new NetworkCredential(@"trainer", @"trainer", @"HDWA");
+            NetworkCredential proxyCred = new NetworkCredential(@"he67962", @"Ineedcoffee9", @"HDWA");
             WebProxy proxy = new WebProxy(proxyUri, false)
             {
                 UseDefaultCredentials = false,
