@@ -17,7 +17,11 @@ namespace Business.Model
         public String Email { get; set; }
         public DateTime RequestedDate { get; set; }
         public String RequestedBy { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime? RenewedDate { get; set; }
+        public DateTime EndDate { get; set; }
         public bool SubscriptionConfirmed { get; set; }
+        public bool IsActive { get; set; }
         public DateTime? SubscriptionConfirmedDate { get; set; }
     }
 }

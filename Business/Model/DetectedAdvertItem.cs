@@ -14,7 +14,7 @@ namespace Business.Model
         [Key]
         public int DetectedAdvertId { get; set; }
         public DateTime DetectedDate { get; set; }
-        public String Email { get; set; }
+        public bool IsNotified { get; set; }
         public virtual List<AdvertItem> Adverts { get; set; }
         public virtual SubscriptionRequest SubscriptionRequest { get; set; }
     }
